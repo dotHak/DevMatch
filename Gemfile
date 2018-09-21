@@ -36,7 +36,7 @@ gem 'bootsnap', '>= 1.1.0', require: false
 
 # Use Font Awesome sass gem for adding icons
 gem 'font-awesome-sass', '5.3.1'
-
+gem 'jquery-rails'
 # Use Twitter Bootstrap library for front-end UI and layout
 gem 'bootstrap-sass', '3.3.7'
 
