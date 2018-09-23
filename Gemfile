@@ -43,6 +43,10 @@ gem 'jquery-rails'
 gem 'bootstrap-sass', '3.3.7'
 # Use Devise for user authentication
 gem 'devise', '4.5.0'
+# Use Stripe for payment processing
+gem 'stripe', '3.26.1'
+# Use Figaro for ENV variables
+gem 'figaro', '1.1.1'
 
 group :development, :test do
     # Use sqlite3 as the database for Active Record
