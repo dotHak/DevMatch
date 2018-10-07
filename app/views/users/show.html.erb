@@ -12,7 +12,7 @@
         <%=@user.profile.description %>
       </div>
       
-        <% if true# current_user.plan_id == 2 %>
+        <% if current_user.plan_id == 2 %>
         <div class = 'well profile-block profile-info'>
           <h3>Contact Infomation</h3>
           <%= @user.profile.phone_number %><br />
